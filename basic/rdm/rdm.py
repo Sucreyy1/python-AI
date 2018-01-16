@@ -16,3 +16,9 @@ result = random.choice(ran, 7)
 # 从ran中无回放的随机采样7个
 result = random.choice(ran, 7, replace=False)
 
+# 数组的计算
+arr = random.randn(4, 4)
+arr = np.where(arr > 0, 2, arr)
+num = random.randint(0, 2, 1000)
+draws = np.where(num > 0, 1, -1)
+walk = np.cumsum(draws)
