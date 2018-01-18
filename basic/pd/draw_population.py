@@ -12,8 +12,8 @@ def draw_pop(path):
     plt.axis('equal')
     plt.title('Sex Proportion')
     plt.tight_layout()
-    plt.show()
     plt.savefig('Sex Proportion.png')
+    plt.show()
 
 
 if __name__ == '__main__':
