@@ -21,3 +21,9 @@ frame = DataFrame(data, columns=['year', 'state', 'pop'])
 print(frame['year'])
 # 行索引
 line = frame.ix[0, 'year']
+
+# for index, value in ['1', '2', '3']:
+#     print(index, value)
+
+i = 1
+print(i + 1)
