@@ -27,3 +27,12 @@ line = frame.ix[0, 'year']
 
 i = 1
 print(i + 1)
+
+if __name__ == '__main__':
+    x = [[1, 2, 3],
+         [4, 5, 6]]
+    y = [1,
+         -1]
+    for a, b in zip(x, y):
+        print(a, b)
+        print('-----')
